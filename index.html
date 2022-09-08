@@ -97,9 +97,9 @@
 
     <!-- Courses section start  -->
         
-    <section class="container mt-5 mb-5 pt-5">
-            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
-                <h1>Discover Our Popular Courses</h1>
+    <section class="container mt-5 mb-5 p-5">
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center ">
+                <h1 class="">Discover Our Popular Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
             <div>
@@ -202,11 +202,52 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <button class="btn btn-primary">View All</button>
+            </div>
+            
         
     </section>
     <!-- Courses section end -->
+
+    <section class="container bg-primary text-light">
+        <div class="row g-5 p-5">
+            <div class="d-flex flex-column col-12 col-lg-6 col-md-6">
+                <h1>Ready to join? </h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary float-end pe-5 bg-light text-primary rounded" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Register Now!
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Join Now!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        To join click JOIN
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary ">Join</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- Frequently Asked Questions section start  -->
@@ -219,50 +260,47 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    What other services are you compatible with?
+                    What are the differences between flexbox and grid ?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the generators on the.
+                    Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    I have a technical i need resolved, who do i email?
+                    What are the basic difference between Bootstrap and Tailwind?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    While writing a customer support email, you might draft an ambiguous response. This could be an older solution or some information you garnered from a coworker on the fly. You risk turning a satisfied customer into a sore one with a small error from your end. 
+                    Bootstrap is a component-based framework, which means it comes with prebuilt components and includes other utilities for layering displays, spacing, etc. Tailwind, on the other hand, CSS is a utility-first framework. Using Tailwind CSS is akin to writing regular CSS. Unlike Bootstrap, it has no prebuilt components. 
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    What other services are you compatible with?
+                    What is CSS Box model ?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    We offer the full spectrum of services to help organizations work better. Everything from creating standards of excellence to training your people to work in more effective ways, assessing how you’re doing, and helping you perform even better in future. Very few others do this, and none have been doing it as long as we have.
+                    In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.
                 </div>
               </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    What are the best thing about us ?
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    what is a semantic tag in html ?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>Professionalism</strong>  - We are professional surfboard builders with a graphics "touch". <br>
-                    <strong>Experienced</strong> - We understand what it takes to build a board (we do it every day) and how important the customization through artwork is. <br>
-                    <strong>Research & Development</strong>  - We use proven materials that work well with and compliment your board.  If there is a better way to do something, we are going to figure it out and enhance our offerings. <br>
-                    <strong>Core</strong> - We are not some mega graphics shop trying to cash in on the "action sports" craze.  We surf, skate, snowboard, SUP, skim, kite - just like you.
+                    Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
                 </div>
               </div>
             </div>
@@ -272,7 +310,7 @@
     <!-- Frequently Asked Questions section end  -->
 
     <!-- Company list section start -->
-    <section class="container mt-5 mb-5 pt-5">
+    <section class="container mt-5 mb-5 pt-5 d-none d-lg-block d-xl-block">
         <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <h1>Trusted by over 800+ companies</h1>
         </div>
